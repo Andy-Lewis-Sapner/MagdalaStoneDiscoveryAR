@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a674721d0dea422d8343d482a0155d94, type: 3}
+  m_Name: MenorahInfo
+  m_EditorClassIdentifier: 
+  symbolPrefab: {fileID: 61254213642345074, guid: 463c701d8d14de84694bf11b68f71962,
+    type: 3}
+  rotationAxis: 1
+  titles:
+  - Menorah
+  - "\u05DE\u05E0\u05D5\u05E8\u05D4"
+  informationDialogue:
+  - informationDialoguePerLanguages:
+    - dialogueText: This is a seven-branched menorah.
+      dialogueAudioClip: {fileID: 8300000, guid: 9ff918aa123df9f4db995b74bdd6de37,
+        type: 3}
+    - dialogueText: "\u05D6\u05D5\u05B9\u05D4\u05B4\u05D9 \u05DE\u05B0\u05E0\u05D5\u05B9\u05E8\u05B8\u05D4
+        \u05D1\u05BC\u05B7\u05E2\u05B2\u05DC\u05B7\u05EA \u05E9\u05C1\u05B4\u05D1\u05B0\u05E2\u05B8\u05D4
+        \u05E7\u05B8\u05E0\u05B4\u05D9\u05DD."
+      dialogueAudioClip: {fileID: 8300000, guid: a0047c897df22234699eb6aa4e0864a4,
+        type: 3}
+  - informationDialoguePerLanguages:
+    - dialogueText: This depiction is considered the earliest known image of the
+        Temple's menorah.
+      dialogueAudioClip: {fileID: 8300000, guid: 891c9fadbe8f4da4bae55e6e07ad6b6c,
+        type: 3}
+    - dialogueText: "\u05EA\u05BC\u05B5\u05D0\u05D5\u05BC\u05E8 \u05D6\u05B6\u05D4
+        \u05E0\u05B6\u05D7\u05B1\u05E9\u05C1\u05B8\u05D1 \u05DC\u05B7\u05EA\u05BC\u05B0\u05DE\u05D5\u05BC\u05E0\u05B8\u05D4
+        \u05D4\u05B7\u05DE\u05BC\u05BB\u05E7\u05B0\u05D3\u05BC\u05B6\u05DE\u05B6\u05EA
+        \u05D1\u05BC\u05B0\u05D9\u05D5\u05B9\u05EA\u05B5\u05E8 \u05D4\u05B7\u05D9\u05BC\u05B0\u05D3\u05D5\u05BC\u05E2\u05B8\u05D4
+        \u05E9\u05C1\u05B6\u05DC \u05DE\u05B0\u05E0\u05D5\u05B9\u05E8\u05B7\u05EA
+        \u05D1\u05BC\u05B5\u05D9\u05EA \u05D4\u05B7\u05DE\u05BC\u05B4\u05E7\u05B0\u05D3\u05BC\u05B8\u05E9\u05C1."
+      dialogueAudioClip: {fileID: 8300000, guid: 636a286c21b9e154a83a1d4e8cbec6a3,
+        type: 3}
+  - informationDialoguePerLanguages:
+    - dialogueText: It is likely carved by an artist who had seen it firsthand.
+      dialogueAudioClip: {fileID: 8300000, guid: 134f87206ec01df409cac120b68fce70,
+        type: 3}
+    - dialogueText: "\u05DB\u05BC\u05B0\u05DB\u05B8\u05DC \u05D4\u05B7\u05E0\u05BC\u05B4\u05E8\u05B0\u05D0\u05B6\u05D4
+        \u05D4\u05B4\u05D9\u05D0 \u05D2\u05BC\u05BB\u05DC\u05BC\u05B0\u05E4\u05B8\u05D4
+        \u05E2\u05B7\u05DC \u05D9\u05B0\u05D3\u05B5\u05D9 \u05D0\u05B8\u05DE\u05BC\u05B8\u05DF
+        \u05E9\u05C1\u05B6\u05E8\u05B8\u05D0\u05B8\u05D4 \u05D0\u05D5\u05B9\u05EA\u05B8\u05D4\u05BC
+        \u05DE\u05B4\u05DE\u05BC\u05B8\u05E7\u05D5\u05B9\u05E8 \u05E8\u05B4\u05D0\u05E9\u05C1\u05D5\u05B9\u05DF."
+      dialogueAudioClip: {fileID: 8300000, guid: 4dcac61606bff874691872a8fdcd04b4,
+        type: 3}

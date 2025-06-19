@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26695f223e540b78009fe43b973f5f3, type: 3}
+  m_Name: MagdalaStoneQuiz
+  m_EditorClassIdentifier: 
+  quizId: MagdalaStoneQuiz
+  questions:
+  - questionsPerLanguage:
+    - questionText: Where was the Magdala Stone discovered?
+      answers:
+      - Jerusalem
+      - Magdala
+      - Nazareth
+      - Capernaum
+    - questionText: "\u05D4\u05D9\u05DB\u05DF \u05D4\u05EA\u05D2\u05DC\u05EA\u05D4
+        \u05D0\u05D1\u05DF \u05DE\u05D2\u05D3\u05DC\u05D0?"
+      answers:
+      - "\u05D9\u05E8\u05D5\u05E9\u05DC\u05D9\u05DD"
+      - "\u05DE\u05D2\u05D3\u05DC\u05D0"
+      - "\u05E0\u05E6\u05E8\u05EA"
+      - "\u05DB\u05E4\u05E8 \u05E0\u05D7\u05D5\u05DD"
+    correctAnswerIndex: 1
+  - questionsPerLanguage:
+    - questionText: What is the Magdala Stone believed to have been used for?
+      answers:
+      - Altar for sacrifices
+      - "Base for a statue\r"
+      - "Reading desk for Torah scrolls\r"
+      - Decorative floor tile
+    - questionText: "\u05DC\u05DE\u05D4 \u05DE\u05D0\u05DE\u05D9\u05E0\u05D9\u05DD
+        \u05E9\u05D0\u05D1\u05DF \u05DE\u05D2\u05D3\u05DC\u05D4 \u05E9\u05D9\u05DE\u05E9\u05D4?"
+      answers:
+      - "\u05DE\u05D6\u05D1\u05D7 \u05DC\u05E7\u05D5\u05E8\u05D1\u05E0\u05D5\u05EA"
+      - "\u05D1\u05E1\u05D9\u05E1 \u05DC\u05E4\u05E1\u05DC"
+      - "\u05E9\u05D5\u05DC\u05D7\u05DF \u05E7\u05E8\u05D9\u05D0\u05D4 \u05DC\u05E1\u05E4\u05E8\u05D9
+        \u05EA\u05D5\u05E8\u05D4"
+      - "\u05D0\u05E8\u05D9\u05D7\u05D9 \u05E8\u05E6\u05E4\u05D4 \u05D3\u05E7\u05D5\u05E8\u05D8\u05D9\u05D1\u05D9\u05D9\u05DD"
+    correctAnswerIndex: 2
+  - questionsPerLanguage:
+    - questionText: Which symbol is prominently featured on the front of the Magdala
+        Stone?
+      answers:
+      - Star of David
+      - Seven-branched menorah
+      - Lion of Judah
+      - Olive tree
+    - questionText: "\u05D0\u05D9\u05D6\u05D4 \u05E1\u05DE\u05DC \u05DE\u05D5\u05E4\u05D9\u05E2
+        \u05D1\u05D0\u05D5\u05E4\u05DF \u05D1\u05D5\u05DC\u05D8 \u05D1\u05D7\u05D6\u05D9\u05EA
+        \u05D0\u05D1\u05DF \u05DE\u05D2\u05D3\u05DC\u05D4?"
+      answers:
+      - "\u05DE\u05D2\u05DF \u05D3\u05D5\u05D3"
+      - "\u05DE\u05E0\u05D5\u05E8\u05D4 \u05D1\u05E2\u05DC\u05EA \u05E9\u05D1\u05E2\u05D4
+        \u05E7\u05E0\u05D9\u05DD"
+      - "\u05D0\u05E8\u05D9\u05D4 \u05D9\u05D4\u05D5\u05D3\u05D4"
+      - "\u05E2\u05E5 \u05D6\u05D9\u05EA"
+    correctAnswerIndex: 1
+  - questionsPerLanguage:
+    - questionText: What do the side panels of the Magdala Stone depict?
+      answers:
+      - Arches and columns possibly representing Temple architecture
+      - Maps of ancient Israel
+      - Scenes from daily life
+      - Lists of commandments
+    - questionText: "\u05DE\u05D4 \u05DE\u05EA\u05D0\u05E8\u05D9\u05DD \u05E4\u05D0\u05E0\u05DC\u05D9
+        \u05D4\u05E6\u05D3 \u05E9\u05DC \u05D0\u05D1\u05DF \u05DE\u05D2\u05D3\u05DC\u05D4?"
+      answers:
+      - "\u05E7\u05E9\u05EA\u05D5\u05EA \u05D5\u05E2\u05DE\u05D5\u05D3\u05D9\u05DD
+        \u05D4\u05DE\u05D9\u05D9\u05E6\u05D2\u05D9\u05DD \u05DB\u05DB\u05DC \u05D4\u05E0\u05E8\u05D0\u05D4
+        \u05D0\u05EA \u05D0\u05D3\u05E8\u05D9\u05DB\u05DC\u05D5\u05EA \u05D4\u05DE\u05E7\u05D3\u05E9"
+      - "\u05DE\u05E4\u05D5\u05EA \u05E9\u05DC \u05D9\u05E9\u05E8\u05D0\u05DC \u05D4\u05E2\u05EA\u05D9\u05E7\u05D4"
+      - "\u05E1\u05E6\u05E0\u05D5\u05EA \u05DE\u05D7\u05D9\u05D9 \u05D4\u05D9\u05D5\u05DE\u05D9\u05D5\u05DD"
+      - "\u05E8\u05E9\u05D9\u05DE\u05D5\u05EA \u05E9\u05DC \u05DE\u05E6\u05D5\u05D5\u05EA"
+    correctAnswerIndex: 0
+  - questionsPerLanguage:
+    - questionText: What is the significance of the six-petaled rosette on the top
+        of the stone?
+      answers:
+      - "Symbol of the tribe of Judah\r"
+      - Representation of the veil before the Holy of Holies
+      - Decorative element with no known meaning
+      - Emblem of the Roman Empire
+    - questionText: "\u05DE\u05D4\u05D9 \u05DE\u05E9\u05DE\u05E2\u05D5\u05EA\u05D4
+        \u05E9\u05DC \u05D4\u05E9\u05D5\u05E9\u05E0\u05D4 \u05D1\u05E2\u05DC\u05EA
+        \u05E9\u05D9\u05E9\u05D4 \u05E2\u05DC\u05D9 \u05D4\u05DB\u05D5\u05EA\u05E8\u05EA
+        \u05D1\u05E8\u05D0\u05E9 \u05D4\u05D0\u05D1\u05DF?"
+      answers:
+      - "\u05E1\u05DE\u05DC \u05E9\u05D1\u05D8 \u05D9\u05D4\u05D5\u05D3\u05D4"
+      - "\u05D9\u05D9\u05E6\u05D5\u05D2 \u05D4\u05E4\u05E8\u05D5\u05DB\u05EA \u05E9\u05DC\u05E4\u05E0\u05D9
+        \u05E7\u05D5\u05D3\u05E9 \u05D4\u05E7\u05D5\u05D3\u05E9\u05D9\u05DD"
+      - "\u05D0\u05DC\u05DE\u05E0\u05D8 \u05D3\u05E7\u05D5\u05E8\u05D8\u05D9\u05D1\u05D9
+        \u05DC\u05DC\u05D0 \u05DE\u05E9\u05DE\u05E2\u05D5\u05EA \u05D9\u05D3\u05D5\u05E2\u05D4"
+      - "\u05E1\u05DE\u05DC \u05D4\u05D0\u05D9\u05DE\u05E4\u05E8\u05D9\u05D4 \u05D4\u05E8\u05D5\u05DE\u05D9\u05EA"
+    correctAnswerIndex: 1
+  - questionsPerLanguage:
+    - questionText: When was the Magdala Stone discovered?
+      answers:
+      - 1999
+      - 2009
+      - 2019
+      - 2021
+    - questionText: "\u05DE\u05EA\u05D9 \u05D4\u05EA\u05D2\u05DC\u05EA\u05D4 \u05D0\u05D1\u05DF
+        \u05DE\u05D2\u05D3\u05DC\u05D4?"
+      answers:
+      - 9991
+      - 9002
+      - 9102
+      - 1202
+    correctAnswerIndex: 1
+  - questionsPerLanguage:
+    - questionText: "What material is the Magdala Stone made from?\r"
+      answers:
+      - Limestone
+      - Basalt
+      - Sandstone
+      - "Quartzite\r"
+    - questionText: "\u05DE\u05D0\u05D9\u05D6\u05D4 \u05D7\u05D5\u05DE\u05E8 \u05E2\u05E9\u05D5\u05D9\u05D4
+        \u05D0\u05D1\u05DF \u05DE\u05D2\u05D3\u05DC\u05D4?"
+      answers:
+      - "\u05D0\u05D1\u05DF \u05D2\u05D9\u05E8"
+      - "\u05D1\u05D6\u05DC\u05EA"
+      - "\u05D0\u05D1\u05DF \u05D7\u05D5\u05DC"
+      - "\u05E7\u05D5\u05D5\u05E8\u05E6\u05D9\u05D8"
+    correctAnswerIndex: 0
+  - questionsPerLanguage:
+    - questionText: Which city is associated with Mary Magdalene and the Magdala
+        Stone?
+      answers:
+      - Bethlehem
+      - Magdala
+      - Jericho
+      - Hebron
+    - questionText: "\u05D0\u05D9\u05D6\u05D5 \u05E2\u05D9\u05E8 \u05E7\u05E9\u05D5\u05E8\u05D4
+        \u05DC\u05DE\u05E8\u05D9\u05DD \u05D4\u05DE\u05D2\u05D3\u05DC\u05D9\u05EA
+        \u05D5\u05DC\u05D0\u05D1\u05DF \u05D4\u05DE\u05D2\u05D3\u05DC\u05D0?"
+      answers:
+      - "\u05D1\u05D9\u05EA \u05DC\u05D7\u05DD"
+      - "\u05DE\u05D2\u05D3\u05DC\u05D0"
+      - "\u05D9\u05E8\u05D9\u05D7\u05D5"
+      - "\u05D7\u05D1\u05E8\u05D5\u05DF"
+    correctAnswerIndex: 1
+  - questionsPerLanguage:
+    - questionText: What do some scholars believe the Magdala Stone symbolizes within
+        the synagogue?
+      answers:
+      - A sundial for timekeeping
+      - A replica of the Ark of the Covenant
+      - A memorial for fallen soldiers
+      - "A miniature version of the Temple in Jerusalem\r"
+    - questionText: "\u05DE\u05D4 \u05DE\u05E1\u05DE\u05DC\u05EA \u05D0\u05D1\u05DF
+        \u05D4\u05DE\u05D2\u05D3\u05DC\u05D4 \u05D1\u05D1\u05D9\u05EA \u05D4\u05DB\u05E0\u05E1\u05EA,
+        \u05DC\u05D3\u05E2\u05EA \u05D7\u05DC\u05E7 \u05DE\u05D4\u05D7\u05D5\u05E7\u05E8\u05D9\u05DD?"
+      answers:
+      - "\u05E9\u05E2\u05D5\u05DF \u05E9\u05DE\u05E9 \u05DC\u05DE\u05D3\u05D9\u05D3\u05EA
+        \u05D6\u05DE\u05DF"
+      - "\u05D4\u05E2\u05EA\u05E7 \u05E9\u05DC \u05D0\u05E8\u05D5\u05DF \u05D4\u05D1\u05E8\u05D9\u05EA"
+      - "\u05D0\u05E0\u05D3\u05E8\u05D8\u05D4 \u05DC\u05D7\u05D9\u05D9\u05DC\u05D9\u05DD
+        \u05E9\u05E0\u05E4\u05DC\u05D5"
+      - "\u05D2\u05E8\u05E1\u05D4 \u05DE\u05D9\u05E0\u05D9\u05D0\u05D8\u05D5\u05E8\u05D9\u05EA
+        \u05E9\u05DC \u05D1\u05D9\u05EA \u05D4\u05DE\u05E7\u05D3\u05E9 \u05D1\u05D9\u05E8\u05D5\u05E9\u05DC\u05D9\u05DD"
+    correctAnswerIndex: 3
+  - questionsPerLanguage:
+    - questionText: Why is a replica of the Magdala Stone displayed at the synagogue
+        site instead of the original?
+      answers:
+      - To allow tourists to touch the stone
+      - To keep the original safe from weather and damage
+      - Because the original was lost
+      - Because the replica is more detailed
+    - questionText: "\u05DC\u05DE\u05D4 \u05DE\u05D5\u05E6\u05D2 \u05D1\u05D1\u05D9\u05EA
+        \u05D4\u05DB\u05E0\u05E1\u05EA \u05D1\u05DE\u05D2\u05D3\u05DC\u05D0 \u05D4\u05E2\u05EA\u05E7
+        \u05E9\u05DC \u05D0\u05D1\u05DF \u05DE\u05D2\u05D3\u05DC\u05D0 \u05D5\u05DC\u05D0
+        \u05D4\u05D0\u05D1\u05DF \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9\u05EA?"
+      answers:
+      - "\u05DB\u05D3\u05D9 \u05DC\u05D0\u05E4\u05E9\u05E8 \u05DC\u05EA\u05D9\u05D9\u05E8\u05D9\u05DD
+        \u05DC\u05D2\u05E2\u05EA \u05D1\u05D0\u05D1\u05DF"
+      - "\u05DB\u05D3\u05D9 \u05DC\u05E9\u05DE\u05D5\u05E8 \u05E2\u05DC \u05D4\u05D0\u05D1\u05DF
+        \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9\u05EA \u05DE\u05E4\u05E0\u05D9 \u05E0\u05D6\u05E7
+        \u05D5\u05DE\u05D6\u05D2 \u05D0\u05D5\u05D5\u05D9\u05E8"
+      - "\u05DB\u05D9 \u05D4\u05D0\u05D1\u05DF \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9\u05EA
+        \u05D0\u05D1\u05D3\u05D4"
+      - "\u05DB\u05D9 \u05D4\u05D4\u05E2\u05EA\u05E7 \u05DE\u05E4\u05D5\u05E8\u05D8
+        \u05D9\u05D5\u05EA\u05E8"
+    correctAnswerIndex: 1
+  - questionsPerLanguage:
+    - questionText: What feature makes the Magdala Stone unique among other archaeological
+        finds from ancient synagogues?
+      answers:
+      - It is made of gold
+      - It has the oldest known carved image of a seven-branched menorah
+      - It contains an inscription from King Herod
+      - It was found underwater
+    - questionText: "\u05DE\u05D4 \u05DE\u05D9\u05D5\u05D7\u05D3 \u05D1\u05D0\u05D1\u05DF
+        \u05DE\u05D2\u05D3\u05DC\u05D0 \u05DC\u05E2\u05D5\u05DE\u05EA \u05DE\u05DE\u05E6\u05D0\u05D9\u05DD
+        \u05D0\u05E8\u05DB\u05D9\u05D0\u05D5\u05DC\u05D5\u05D2\u05D9\u05D9\u05DD
+        \u05D0\u05D7\u05E8\u05D9\u05DD \u05DE\u05D1\u05EA\u05D9 \u05DB\u05E0\u05E1\u05EA
+        \u05E2\u05EA\u05D9\u05E7\u05D9\u05DD?"
+      answers:
+      - "\u05E2\u05E9\u05D5\u05D9\u05D4 \u05DE\u05D6\u05D4\u05D1"
+      - "\u05D9\u05E9 \u05D1\u05D4 \u05D0\u05EA \u05D4\u05EA\u05DE\u05D5\u05E0\u05D4
+        \u05D4\u05D7\u05E8\u05D5\u05D8\u05D4 \u05D4\u05E2\u05EA\u05D9\u05E7\u05D4
+        \u05D1\u05D9\u05D5\u05EA\u05E8 \u05E9\u05DC \u05DE\u05E0\u05D5\u05E8\u05D4
+        \u05D1\u05E2\u05DC\u05EA \u05E9\u05D1\u05E2\u05D4 \u05E7\u05E0\u05D9\u05DD"
+      - "\u05DE\u05DB\u05D9\u05DC\u05D4 \u05DB\u05EA\u05D5\u05D1\u05EA \u05E9\u05DC
+        \u05D4\u05DE\u05DC\u05DA \u05D4\u05D5\u05E8\u05D3\u05D5\u05E1"
+      - "\u05E0\u05DE\u05E6\u05D0\u05D4 \u05DE\u05EA\u05D7\u05EA \u05DC\u05DE\u05D9\u05DD"
+    correctAnswerIndex: 1
+  - questionsPerLanguage:
+    - questionText: Where is the original Magdala Stone currently located?
+      answers:
+      - Israel Museum in Jerusalem
+      - Vatican Museums
+      - "Beit Shemesh\r"
+      - "British Museum in London\r"
+    - questionText: "\u05D4\u05D9\u05DB\u05DF \u05E0\u05DE\u05E6\u05D0\u05EA \u05DB\u05D9\u05D5\u05DD
+        \u05D0\u05D1\u05DF \u05DE\u05D2\u05D3\u05DC\u05D4 \u05D4\u05DE\u05E7\u05D5\u05E8\u05D9\u05EA?"
+      answers:
+      - "\u05DE\u05D5\u05D6\u05D9\u05D0\u05D5\u05DF \u05D1\u05D9\u05E8\u05D5\u05E9\u05DC\u05D9\u05DD,
+        \u05D9\u05E9\u05E8\u05D0\u05DC"
+      - "\u05DE\u05D5\u05D6\u05D9\u05D0\u05D5\u05E0\u05D9 \u05D4\u05D5\u05D5\u05EA\u05D9\u05E7\u05DF"
+      - "\u05D1\u05D9\u05EA \u05E9\u05DE\u05E9"
+      - "\u05DE\u05D5\u05D6\u05D9\u05D0\u05D5\u05DF \u05D1\u05DC\u05D5\u05E0\u05D3\u05D5\u05DF,
+        \u05D1\u05E8\u05D9\u05D8\u05E0\u05D9\u05D4"
+    correctAnswerIndex: 2

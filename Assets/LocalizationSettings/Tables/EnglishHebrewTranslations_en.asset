@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EnglishHebrewTranslations_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: e727e1c1d32f3a041a44a5fadf2add60, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8614936576
+    m_Localized: Play a voice for information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12234654580736
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15015994032128
+    m_Localized: Toggle Animations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166132816117760
+    m_Localized: Font Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166394649739264
+    m_Localized: Small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166469987827712
+    m_Localized: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166536396242944
+    m_Localized: Large
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167382685155328
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167437173358592
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167507826409472
+    m_Localized: Hebrew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167984743940096
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171035881996288
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697388704301056
+    m_Localized: Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700220178268160
+    m_Localized: Stone Tour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700330895310848
+    m_Localized: Synagogue Tour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700442287636480
+    m_Localized: Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700503943905280
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701240761483264
+    m_Localized: Welcome to the Magdala Stone Quiz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701397146107904
+    m_Localized: Start Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702728015544320
+    m_Localized: Well done!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702790825246720
+    m_Localized: Repeat Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2553196907954176
+    m_Localized: Search for symbols and click on them!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3537021246996480
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3537592746082304
+    m_Localized: Continue To Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3541684298022912
+    m_Localized: Guess the Symbol's Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3569314778939392
+    m_Localized: 'As part of the Augmented Reality Project course in the Braude College
+      in Carmiel, we got to create a project regarding cultural heritage. We chose
+      to create an interactive AR application that teaches a little about the Magdala
+      Stone.
+
+
+      This app includes various features:
+
+      (1) A fast tour in
+      the place where the stone was found.
+
+      (2) A tour using your camera that
+      includes the Magdala Stone, with information about it and a hangman game.
+
+      (3)
+      A quiz to gain some more knowledge about the Magdala Stone.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3578566264324096
+    m_Localized: "You've reached the end!\n\nThank you for experiencing the \nMagdala
+      Stone with us!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3909173922070528
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4969858877718528
+    m_Localized: The Madgala Stone Discovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4970146518892544
+    m_Localized: The Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5014520929812480
+    m_Localized: Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6334474610376704
+    m_Localized: Continue To Stone Tour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6398024452243456
+    m_Localized: Mute Background Music
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

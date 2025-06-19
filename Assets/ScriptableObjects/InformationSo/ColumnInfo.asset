@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a674721d0dea422d8343d482a0155d94, type: 3}
+  m_Name: ColumnInfo
+  m_EditorClassIdentifier: 
+  symbolPrefab: {fileID: 4765392048150037027, guid: c4a69b26abce47a44b63456606d7a4ae,
+    type: 3}
+  rotationAxis: 1
+  titles:
+  - Columns
+  - "\u05E2\u05DE\u05D5\u05D3\u05D9\u05DD"
+  informationDialogue:
+  - informationDialoguePerLanguages:
+    - dialogueText: The columns on the stone symbolize the structure of the Temple,
+        possibly its gateways or inner sanctuaries.
+      dialogueAudioClip: {fileID: 8300000, guid: dda9357900af68e45a31ae5701f2f99a,
+        type: 3}
+    - dialogueText: "\u05D4\u05B8\u05E2\u05B7\u05DE\u05BC\u05D5\u05BC\u05D3\u05B4\u05D9\u05DD
+        \u05E9\u05C1\u05B6\u05E2\u05B7\u05DC \u05D4\u05B8\u05D0\u05B6\u05D1\u05B6\u05DF
+        \u05DE\u05B0\u05E1\u05B7\u05DE\u05BC\u05B0\u05DC\u05B4\u05D9\u05DD \u05D0\u05B6\u05EA
+        \u05DE\u05B4\u05D1\u05B0\u05E0\u05B5\u05D4 \u05D1\u05BC\u05B5\u05D9\u05EA
+        \u05D4\u05B7\u05DE\u05BC\u05B4\u05E7\u05B0\u05D3\u05BC\u05B8\u05E9\u05C1,
+        \u05D0\u05D5\u05BC\u05DC\u05B7\u05D9 \u05D0\u05B6\u05EA \u05E9\u05C1\u05B7\u05E2\u05B2\u05E8\u05B5\u05D9
+        \u05D4\u05B7\u05DB\u05BC\u05B0\u05E0\u05B4\u05D9\u05E1\u05B8\u05D4 \u05D0\u05D5\u05B9
+        \u05D0\u05B6\u05EA \u05E7\u05B9\u05D3\u05B6\u05E9\u05C1 \u05D4\u05B7\u05E7\u05BC\u05B8\u05D3\u05B8\u05E9\u05C1\u05B4\u05D9\u05DD."
+      dialogueAudioClip: {fileID: 8300000, guid: ceb66cb321d51584cae6032a17c02a36,
+        type: 3}
+  - informationDialoguePerLanguages:
+    - dialogueText: "They represent a connection to the sacred space.\r"
+      dialogueAudioClip: {fileID: 8300000, guid: 5eef5d581da2645458cd3bec17a4b893,
+        type: 3}
+    - dialogueText: "\u05D4\u05B5\u05DD \u05DE\u05B0\u05E1\u05B7\u05DE\u05BC\u05B0\u05DC\u05B4\u05D9\u05DD
+        \u05D7\u05B4\u05D1\u05BC\u05D5\u05BC\u05E8 \u05DC\u05B7\u05DE\u05BC\u05B6\u05E8\u05B0\u05D7\u05B8\u05D1
+        \u05D4\u05B7\u05E7\u05BC\u05B8\u05D3\u05D5\u05B9\u05E9\u05C1."
+      dialogueAudioClip: {fileID: 8300000, guid: 23068401036445f45b6d23dc73d1e220,
+        type: 3}

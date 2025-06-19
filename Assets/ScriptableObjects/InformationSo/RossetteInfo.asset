@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a674721d0dea422d8343d482a0155d94, type: 3}
+  m_Name: RossetteInfo
+  m_EditorClassIdentifier: 
+  symbolPrefab: {fileID: 5777426311056189925, guid: 502a1fd082fce434f80a21cc912bb180,
+    type: 3}
+  rotationAxis: 1
+  titles:
+  - Rosette
+  - "\u05E9\u05D5\u05E9\u05E0\u05D4"
+  informationDialogue:
+  - informationDialoguePerLanguages:
+    - dialogueText: It is believed by many scholars to symbolize the veil that separated
+        the Holy of Holies in the Temple, the most sacred space.
+      dialogueAudioClip: {fileID: 8300000, guid: 0849c1b300e52f6418f2e7d0d9f571bc,
+        type: 3}
+    - dialogueText: "\u05D7\u05D5\u05B9\u05E7\u05B0\u05E8\u05B4\u05D9\u05DD \u05E8\u05B7\u05D1\u05BC\u05B4\u05D9\u05DD
+        \u05DE\u05B7\u05D0\u05B2\u05DE\u05B4\u05D9\u05E0\u05B4\u05D9\u05DD \u05E9\u05C1\u05B6\u05D4\u05B4\u05D9\u05D0
+        \u05DE\u05B0\u05E1\u05B7\u05DE\u05BC\u05B6\u05DC\u05B6\u05EA \u05D0\u05B6\u05EA
+        \u05D4\u05B7\u05E4\u05BC\u05B8\u05E8\u05B9\u05DB\u05B6\u05EA \u05E9\u05C1\u05B6\u05D4\u05B4\u05E4\u05B0\u05E8\u05B4\u05D9\u05D3\u05B8\u05D4
+        \u05D1\u05BC\u05B5\u05D9\u05DF \u05E7\u05B9\u05D3\u05B6\u05E9\u05C1 \u05D4\u05B7\u05E7\u05BC\u05B8\u05D3\u05B8\u05E9\u05C1\u05B4\u05D9\u05DD
+        \u05D1\u05BC\u05B0\u05D1\u05B5\u05D9\u05EA \u05D4\u05B7\u05DE\u05BC\u05B4\u05E7\u05B0\u05D3\u05BC\u05B8\u05E9\u05C1,
+        \u05D4\u05B6\u05D7\u05B8\u05DC\u05B8\u05DC \u05D4\u05B7\u05E7\u05BC\u05B8\u05D3\u05D5\u05B9\u05E9\u05C1
+        \u05D1\u05BC\u05B0\u05D9\u05D5\u05B9\u05EA\u05B5\u05E8."
+      dialogueAudioClip: {fileID: 8300000, guid: 7caddfe660382c346a4c6df035450ef1,
+        type: 3}
+  - informationDialoguePerLanguages:
+    - dialogueText: "It's a common motif in Jewish art from the Second Temple period
+        and carries spiritual significance.\r"
+      dialogueAudioClip: {fileID: 8300000, guid: e3ab583fb04a89d4295f21ffc5a812ea,
+        type: 3}
+    - dialogueText: "\u05D6\u05B6\u05D4\u05D5\u05BC \u05DE\u05D5\u05B9\u05D8\u05B4\u05D9\u05D1
+        \u05E0\u05B8\u05E4\u05D5\u05B9\u05E5 \u05D1\u05BC\u05B0\u05D0\u05B8\u05DE\u05BC\u05B8\u05E0\u05D5\u05BC\u05EA
+        \u05D9\u05B0\u05D4\u05D5\u05BC\u05D3\u05B4\u05D9\u05EA \u05DE\u05B4\u05EA\u05BC\u05B0\u05E7\u05D5\u05BC\u05E4\u05B7\u05EA
+        \u05D1\u05BC\u05B7\u05D9\u05B4\u05EA \u05E9\u05C1\u05B5\u05E0\u05B4\u05D9
+        \u05D5\u05B0\u05E0\u05D5\u05B9\u05E9\u05C2\u05B5\u05D0 \u05DE\u05B7\u05E9\u05C1\u05B0\u05DE\u05B8\u05E2\u05D5\u05BC\u05EA
+        \u05E8\u05D5\u05BC\u05D7\u05B8\u05E0\u05B4\u05D9\u05EA."
+      dialogueAudioClip: {fileID: 8300000, guid: f9af2993eeecffe429d1ee96924d552c,
+        type: 3}

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3988e1ee-877c-4841-bee1-c848abbc4395" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.plastic/plastic.changes" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.changes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.wktree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/12.9.0/firebase-auth-unity-12.9.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/12.9.0/firebase-auth-unity-12.9.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/12.9.0/firebase-database-unity-12.9.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/12.9.0/firebase-database-unity-12.9.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Alef-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Alef-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Alef-Regular SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Alef-Regular SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Andy-Lewis-Sapner"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Andy-Lewis-Sapner/MagdalaStoneDiscoveryAR.git&quot;,
+    &quot;accountId&quot;: &quot;9005e1d6-ab3a-48fd-a84c-93122ee35405&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HangmanGame/KeyboardController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/QuizManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@e2c83221d2dc/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/DocCodeSamples.Tests/LocalizeStringEventExample.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/DocCodeSamples.Tests/LocalizeStringEventSamples.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/Editor/Settings/LocalizationTableCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/Runtime/Component Localizers/LocalizeStringEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/Runtime/Locale.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/Runtime/Property Variants/Tracked Objects/TrackedLocalizeStringEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/TMP/TMP_SubMeshUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@238c430a5976/Runtime/ARFoundation/ARTrackedImageManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@238c430a5976/Runtime/Simulation/Subsystems/SimulationSessionSubsystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils@c0df0dd5bced/Runtime/ScriptableSettings.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2vXfvRp4U4qFXMi8A0jpIOWD9b1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\marin\UnityProjects\My project&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\marin\UnityProjects\My project" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\marin\UnityProjects\My project&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\marin\UnityProjects\My project" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3988e1ee-877c-4841-bee1-c848abbc4395" name="Changes" comment="" />
+      <created>1744296570564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744296570564</updated>
+      <workItem from="1744296572328" duration="3000" />
+      <workItem from="1744299623378" duration="3314000" />
+      <workItem from="1746712824695" duration="1096000" />
+      <workItem from="1746716595638" duration="4733000" />
+      <workItem from="1746775659711" duration="5182000" />
+      <workItem from="1747041806671" duration="2222000" />
+      <workItem from="1747045589454" duration="15319000" />
+      <workItem from="1747317131123" duration="11666000" />
+      <workItem from="1747923258944" duration="10836000" />
+      <workItem from="1747967715671" duration="26884000" />
+      <workItem from="1748022166814" duration="2357000" />
+      <workItem from="1748090571500" duration="307000" />
+      <workItem from="1748090942898" duration="8088000" />
+      <workItem from="1748101225062" duration="1481000" />
+      <workItem from="1748183188239" duration="5638000" />
+      <workItem from="1748192810502" duration="475000" />
+      <workItem from="1748261938196" duration="9040000" />
+      <workItem from="1748271429511" duration="2637000" />
+      <workItem from="1748311391720" duration="123000" />
+      <workItem from="1748311532362" duration="1715000" />
+      <workItem from="1748362969042" duration="1625000" />
+      <workItem from="1748527037314" duration="7557000" />
+      <workItem from="1748758461781" duration="33480000" />
+      <workItem from="1748832073694" duration="5755000" />
+      <workItem from="1748856942624" duration="7552000" />
+      <workItem from="1749114439009" duration="16307000" />
+      <workItem from="1749132034018" duration="5376000" />
+      <workItem from="1749185166066" duration="6273000" />
+      <workItem from="1749192532397" duration="167000" />
+      <workItem from="1749193033496" duration="3265000" />
+      <workItem from="1749222460495" duration="799000" />
+      <workItem from="1749365488108" duration="161000" />
+      <workItem from="1749391303615" duration="1931000" />
+      <workItem from="1749436343969" duration="28706000" />
+      <workItem from="1749694216767" duration="183000" />
+      <workItem from="1749694484742" duration="2937000" />
+      <workItem from="1749740161379" duration="1854000" />
+      <workItem from="1749971984328" duration="426000" />
+      <workItem from="1750342428546" duration="3477000" />
+    </task>
+    <task id="LOCAL‎-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1749972384453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1749972384453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

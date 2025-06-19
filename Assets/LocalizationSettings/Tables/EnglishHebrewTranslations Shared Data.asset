@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: EnglishHebrewTranslations Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: EnglishHebrewTranslations
+  m_TableCollectionNameGuidString: e727e1c1d32f3a041a44a5fadf2add60
+  m_Entries:
+  - m_Id: 8614936576
+    m_Key: PlayVoice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12234654580736
+    m_Key: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15015994032128
+    m_Key: AnimationSetting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166132816117760
+    m_Key: FontSize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166394649739264
+    m_Key: SmallFontSize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166469987827712
+    m_Key: MediumFontSize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166536396242944
+    m_Key: LargeFontSize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167382685155328
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167437173358592
+    m_Key: EnglishLanguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167507826409472
+    m_Key: HebrewLanguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167984743940096
+    m_Key: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171035881996288
+    m_Key: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697388704301056
+    m_Key: Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700220178268160
+    m_Key: StoneTour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700330895310848
+    m_Key: SynagogueTour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700442287636480
+    m_Key: Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700503943905280
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701240761483264
+    m_Key: WelcomeToQuiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701397146107904
+    m_Key: StartQuiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702728015544320
+    m_Key: WellDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702790825246720
+    m_Key: RepeatQuiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2553196907954176
+    m_Key: SearchForSymbols
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3537021246996480
+    m_Key: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3537592746082304
+    m_Key: ContinueToQuiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3541684298022912
+    m_Key: GuessName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3569314778939392
+    m_Key: MissionDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3578566264324096
+    m_Key: EndSceneMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3909173922070528
+    m_Key: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4969858877718528
+    m_Key: GameTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4970146518892544
+    m_Key: Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5014520929812480
+    m_Key: Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6334474610376704
+    m_Key: ContinueToStoneTour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6398024452243456
+    m_Key: ToggleBackgroundMusic
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8750164734028284219
+  references:
+    version: 2
+    RefIds:
+    - rid: 8750164734028284219
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1747929903187
