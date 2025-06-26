@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StoneSceneProgress : MonoBehaviour {
@@ -31,9 +32,12 @@ public class StoneSceneProgress : MonoBehaviour {
     private void Start() {
         InformationManager.OnInformationPanelOpened += InformationManagerOnInformationPanelOpened;
         InformationManager.OnInformationPanelClosed += InformationManagerOnInformationPanelClosed;
+        
         continueToQuizButton.gameObject.SetActive(false);
         progressBar.gameObject.SetActive(false);
         instructionObject.SetActive(false);
+
+        if (SceneManager.GetActiveScene().name.Equals(nameof(SceneNames.StoneScene3D))) StartProgress();
     }
 
     /**

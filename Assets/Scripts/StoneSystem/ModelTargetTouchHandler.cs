@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class ModelTargetTouchHandler : MonoBehaviour {
     [SerializeField] private ModelTrackingStatus trackingStatus; // For checking if model is being tracked
@@ -8,6 +9,11 @@ public class ModelTargetTouchHandler : MonoBehaviour {
     private InputAction _tapAction; // For input
     private Vector3 _difference; // For raycast
     private string _currentDirection; // For raycast
+    private bool _isARScene; // For raycast
+
+    private void Start() {
+        _isARScene = SceneManager.GetActiveScene().name == nameof(SceneNames.StoneSceneAR);
+    }
 
     /**
      * <summary>Subscribes to input</summary>
@@ -31,7 +37,7 @@ public class ModelTargetTouchHandler : MonoBehaviour {
      * <param name="obj">The input</param>
      */
     private void OnTapPreformed(InputAction.CallbackContext obj) {
-        if (!trackingStatus || !trackingStatus.isTracking) return;
+        if (_isARScene && (!trackingStatus || !trackingStatus.isTracking)) return;
         if (SettingsPanel.instance.isPanelVisible || HangmanController.instance.isPanelVisible) return;
 
         Vector2 screenPosition = Pointer.current.position.ReadValue();
@@ -44,7 +50,7 @@ public class ModelTargetTouchHandler : MonoBehaviour {
      * <param name="ray">The ray</param>
      */
     private void CheckHit(Ray ray) {
-        if (!Physics.Raycast(ray, out RaycastHit hit, 100f)) return;
+        if (!Physics.Raycast(ray, out RaycastHit hit, 120f)) return;
         if (!hit.collider.TryGetComponent(out StoneSymbol stoneSymbol)) return;
         stoneSymbol.ShowInfoAboutSymbol(mainCamera.transform.position, mainCamera.transform.forward);
         AudioManager.instance.PlayButtonClickSound();

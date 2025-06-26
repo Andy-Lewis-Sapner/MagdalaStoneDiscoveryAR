@@ -68,8 +68,8 @@ public class AudioManager : MonoBehaviour {
         AudioClip clip = scene.name switch {
             nameof(SceneNames.MenuScene) => backgroundMusicForMenu,
             nameof(SceneNames.SynagogueScene) => backgroundMusicForSynagogue,
-            nameof(SceneNames.StoneScene) => backgroundMusicForStone,
-            nameof(SceneNames.StoneSceneNoAR) => backgroundMusicForStone,
+            nameof(SceneNames.StoneSceneAR) => backgroundMusicForStone,
+            nameof(SceneNames.StoneScene3D) => backgroundMusicForStone,
             nameof(SceneNames.QuizScene) => backgroundMusicForQuiz,
             _ => null
         };

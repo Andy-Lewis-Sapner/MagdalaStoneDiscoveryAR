@@ -43,5 +43,5 @@ public class SceneController : MonoBehaviour {
  * <summary>The names of the scenes in the game</summary>
  */
 public enum SceneNames {
-    MenuScene, StoneScene, StoneSceneNoAR, QuizScene, SynagogueScene
+    MenuScene, StoneSceneAR, StoneScene3D, QuizScene, SynagogueScene
 }

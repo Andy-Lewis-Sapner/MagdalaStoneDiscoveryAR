@@ -30,6 +30,7 @@ public class SettingsPanel : MonoBehaviour {
         else instance = this;
         
         SetLanguageButtons();
+        SetSavedValues();
     }
 
     /**
@@ -47,7 +48,6 @@ public class SettingsPanel : MonoBehaviour {
         canvasGroup.alpha = 0f;
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
-        SetSavedValues();
     }
 
     /**

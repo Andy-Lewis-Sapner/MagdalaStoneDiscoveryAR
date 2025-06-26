@@ -11,10 +11,10 @@ public class StoneSymbol : MonoBehaviour {
     
     [SerializeField] private InformationSo informationSo; // The information associated with the symbol
     [SerializeField] private float distance = 0.1f; // The distance between the symbol and the player
+    [SerializeField] private float scaleChange = 200f; // The amount to scale the symbol (in the scene with no AR)
     
     private Transform _symbolGameObject; // The game object representing the symbol
     private Tween _scaleTween; // The tween for scaling the symbol
-    private Camera _mainCamera; // The main camera
     private Vector3 _originalScale, _rotationAxis, _position, _forward; // The original scale and rotation axis
     private bool _subscribedToHangmanEvent, _isARScene; // Whether the symbol has been subscribed to the hangman event
 
@@ -29,9 +29,8 @@ public class StoneSymbol : MonoBehaviour {
             RotationAxis.Right => Vector3.right,
             _ => Vector3.up
         };
-        
-        _mainCamera = Camera.main;
-        _isARScene = SceneManager.GetActiveScene().name == nameof(SceneNames.StoneScene);
+
+        _isARScene = SceneManager.GetActiveScene().name == nameof(SceneNames.StoneSceneAR);
     }
 
     /**
@@ -96,6 +95,7 @@ public class StoneSymbol : MonoBehaviour {
             GameObject symbolGameObject = Instantiate(informationSo.symbolPrefab);
             _symbolGameObject = symbolGameObject.transform;
             _originalScale = _symbolGameObject.localScale;
+            if (!_isARScene) _originalScale = scaleChange * _originalScale;
             _symbolGameObject.localScale = Vector3.zero;
         }
         
@@ -116,14 +116,6 @@ public class StoneSymbol : MonoBehaviour {
      */
     private static bool IsAnySymbolActive() {
         return StoneSymbolsAppearance.Values.Any(state => state);
-    }
-
-    /**
-     * <summary>Handles the click event for the symbol (for 2D, not AR scene)</summary>
-     */
-    public void OnSymbolClicked2D() {
-        if (_isARScene) return;
-        ShowInfoAboutSymbol(_mainCamera.transform.position, _mainCamera.transform.forward);
     }
 
     /**

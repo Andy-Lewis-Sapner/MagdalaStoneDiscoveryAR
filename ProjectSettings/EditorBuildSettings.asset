@@ -11,18 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SynagogueScene.unity
     guid: 9e2585d534ea5ac4b89519d9fda159f3
-  - enabled: 1
-    path: Assets/Scenes/StoneSceneNoAR.unity
+  - enabled: 0
+    path: Assets/Scenes/StoneScene3D.unity
     guid: 6b7115a9ad5ca844d9779070d1a3ba5a
   - enabled: 1
-    path: Assets/Scenes/StoneScene.unity
+    path: Assets/Scenes/StoneSceneAR.unity
     guid: f0bb7981e545f8947b96b24348f701aa
   - enabled: 1
     path: Assets/Scenes/QuizScene.unity
     guid: 111fafd5490ab7c4eb7790c9df678edc
-  - enabled: 0
-    path: Assets/Scenes/StoneScene2.unity
-    guid: 4755b35b590504809a7525fd2109c2e2
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}

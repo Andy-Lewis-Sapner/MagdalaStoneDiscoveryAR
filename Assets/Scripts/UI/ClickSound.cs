@@ -6,19 +6,19 @@ public class ClickSound : MonoBehaviour {
     private Toggle _toggle; // Reference to the toggle
 
     /**
-     * <summary>
-     * This script is attached to buttons or toggles.
-     * The button/toggle is connected to this script. 
-     * </summary>
+     * <summary>Gets the button/toggle reference</summary>
      */
     private void Awake() {
         _button = GetComponent<Button>();
-        if (_button) {
-            _button.onClick.AddListener(PlayButtonClickSound);  
-        } else {
-            _toggle = GetComponent<Toggle>();
-            _toggle.onValueChanged.AddListener(_ => PlayButtonClickSound());
-        }
+        _toggle = GetComponent<Toggle>();
+    }
+
+    /**
+     * <summary>Subscribes to the button/toggle click event</summary>
+     */
+    private void Start() {
+        if (_button) _button.onClick.AddListener(PlayButtonClickSound);
+        if (_toggle) _toggle.onValueChanged.AddListener(_ => PlayButtonClickSound());
     }
 
     /**
@@ -32,9 +32,7 @@ public class ClickSound : MonoBehaviour {
      * <summary>Unsubscribes from the button/toggle click event</summary>
      */
     private void OnDestroy() {
-        if (_button)
-            _button.onClick.RemoveListener(PlayButtonClickSound);
-        if (_toggle)
-            _toggle.onValueChanged.RemoveListener(_ => PlayButtonClickSound());
+        if (_button) _button.onClick.RemoveListener(PlayButtonClickSound);
+        if (_toggle) _toggle.onValueChanged.RemoveListener(_ => PlayButtonClickSound());
     }
 }
