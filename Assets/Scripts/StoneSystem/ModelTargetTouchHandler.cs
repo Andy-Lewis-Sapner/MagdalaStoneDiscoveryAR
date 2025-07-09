@@ -53,6 +53,6 @@ public class ModelTargetTouchHandler : MonoBehaviour {
         if (!Physics.Raycast(ray, out RaycastHit hit, 120f)) return;
         if (!hit.collider.TryGetComponent(out StoneSymbol stoneSymbol)) return;
         stoneSymbol.ShowInfoAboutSymbol(mainCamera.transform.position, mainCamera.transform.forward);
-        AudioManager.instance.PlayButtonClickSound();
+        AudioManager.instance.PlayClickSound();
     }
 }

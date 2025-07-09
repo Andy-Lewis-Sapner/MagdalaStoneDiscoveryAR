@@ -10,6 +10,7 @@ public class HangmanController : MonoBehaviour {
     public static event EventHandler OnGameDismissedOrEnded; // Event to notify when the game is dismissed or ended
     private const float AnimationDuration = 0.5f; // Duration of animations
     private readonly StringBuilder _wordBuilder = new(); // StringBuilder to build the word for display
+    private const char LetterPlaceholder = '-'; // Placeholder for unguessed letters
     
     public bool isPanelVisible => gamePanel.alpha > 0; // Property to check if the game panel is visible
 
@@ -91,7 +92,7 @@ public class HangmanController : MonoBehaviour {
             if (_currentWord[i] != letter) continue;
             letterInWord = true;
             
-            if (wordText.text[i] != '_') continue;
+            if (wordText.text[i] != LetterPlaceholder) continue;
             _correctGuesses++;
             wordText.text = wordText.text.Remove(i, 1).Insert(i, letter.ToString());
         }
@@ -137,7 +138,7 @@ public class HangmanController : MonoBehaviour {
         _currentWord = _currentInformation.titles[LocaleSelector.instance.localeId].ToUpper();
         
         int numberOfSpaces = _currentWord.Length - _currentWord.Replace(" ", "").Length;
-        foreach (char character in _currentWord) _wordBuilder.Append(character == ' ' ? ' ' : '_');
+        foreach (char character in _currentWord) _wordBuilder.Append(character == ' ' ? ' ' : LetterPlaceholder);
         _correctGuesses += numberOfSpaces;
         
         wordText.text = _wordBuilder.ToString();

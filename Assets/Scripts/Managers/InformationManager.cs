@@ -9,7 +9,7 @@ public class InformationManager : MonoBehaviour {
     public static event EventHandler OnInformationPanelOpened; // Event when the information panel is opened
     public static event EventHandler OnInformationPanelClosed; // Event when the information panel is closed
     private const float AnimationDuration = 0.5f; // Duration of animations
-    private const float CharactersPerSecondEnglish = 30f; // Characters per second for English
+    private const float CharactersPerSecondOther = 30f; // Characters per second for English
     private const float CharactersPerSecondHebrew = 45f; // Characters per second for Hebrew
     
     [Header("UI Elements")]
@@ -42,11 +42,16 @@ public class InformationManager : MonoBehaviour {
         informationPanel.alpha = 0;
         informationPanel.interactable = false;
         informationPanel.blocksRaycasts = false;
-        informationProgressSlider.direction = LocaleSelector.instance.localeId == 0
-            ? Slider.Direction.LeftToRight
-            : Slider.Direction.RightToLeft;
+        
+        bool isRightToLeft = LocaleSelector.instance.localeId == LocaleSelector.HebrewLocaleId ||
+                             LocaleSelector.instance.localeId == LocaleSelector.ArabicLocaleId;
+        
+        informationProgressSlider.direction = isRightToLeft
+            ? Slider.Direction.RightToLeft
+            : Slider.Direction.LeftToRight;
+        
         informationText.ChangeCharactersPerSecond(LocaleSelector.instance.localeId == 0
-            ? CharactersPerSecondEnglish
+            ? CharactersPerSecondOther
             : CharactersPerSecondHebrew);
         
         LocaleSelector.OnLocaleChanged += ChangeInformationLanguage;
@@ -64,9 +69,11 @@ public class InformationManager : MonoBehaviour {
         if (!_currentInformation || informationPanel.alpha == 0) return;
         SetNextButtonInitialState();
         titleText.SetText(_currentInformation.titles[localeId]);
+        bool isRightToLeft = LocaleSelector.instance.localeId == LocaleSelector.HebrewLocaleId ||
+                             LocaleSelector.instance.localeId == LocaleSelector.ArabicLocaleId;
         informationProgressSlider.direction =
-            localeId == 0 ? Slider.Direction.LeftToRight : Slider.Direction.RightToLeft;
-        informationText.ChangeCharactersPerSecond(localeId == 0 ? CharactersPerSecondEnglish : CharactersPerSecondHebrew);
+            isRightToLeft ? Slider.Direction.RightToLeft : Slider.Direction.LeftToRight;
+        informationText.ChangeCharactersPerSecond(localeId == 0 ? CharactersPerSecondOther : CharactersPerSecondHebrew);
         SetDialogue();
     }
 

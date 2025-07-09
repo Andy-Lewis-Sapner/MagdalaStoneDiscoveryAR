@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class RTLChanger : MonoBehaviour {
     private TextMeshProUGUI _textMeshPro; // Cached reference
+    [SerializeField] private bool allowChangingAlignment = true; // Allow changing alignment
 
     /**
      * <summary>Gets the TextMeshProUGUI component on the game object</summary>
@@ -23,9 +24,11 @@ public class RTLChanger : MonoBehaviour {
      * <summary>Changes the text direction based on the selected locale</summary>
      */
     private void OnLocaleChanged(object sender, int localeId) {
-        _textMeshPro.isRightToLeftText = localeId == 1;
-        if (_textMeshPro.alignment != TextAlignmentOptions.Center) 
-            _textMeshPro.alignment = localeId == 1 ? TextAlignmentOptions.Right : TextAlignmentOptions.Left;
+        bool isRightToLeft = localeId != LocaleSelector.EnglishLocaleId && localeId != LocaleSelector.RussianLocaleId;
+        
+        _textMeshPro.isRightToLeftText = isRightToLeft;
+        if (_textMeshPro.alignment != TextAlignmentOptions.Center && allowChangingAlignment)
+            _textMeshPro.alignment = isRightToLeft ? TextAlignmentOptions.Right : TextAlignmentOptions.Left;
     }
 
     /**

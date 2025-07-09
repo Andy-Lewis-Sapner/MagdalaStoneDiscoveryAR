@@ -21,8 +21,20 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4172e9415b8a54c4b85732702098fa08
+    m_Address: Russian (ru)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b17e1e71bf5464844b8f8458211c8b4a
     m_Address: English (en)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6f6711775a24db4e90c3a6ec66e4bb9
+    m_Address: Arabic (ar)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9233a30185849444483685e6e98e4882
+guid: 0d32799c2b27cf14cada7e323e225e31
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Alef
+  - Noto Sans Arabic
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

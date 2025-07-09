@@ -18,6 +18,8 @@ MonoBehaviour:
   titles:
   - Rosette
   - "\u05E9\u05D5\u05E9\u05E0\u05D4"
+  - "\u0648\u0631\u062F\u0629"
+  - "\u0420\u043E\u0437\u0430"
   informationDialogue:
   - informationDialoguePerLanguages:
     - dialogueText: It is believed by many scholars to symbolize the veil that separated
@@ -34,6 +36,24 @@ MonoBehaviour:
         \u05D1\u05BC\u05B0\u05D9\u05D5\u05B9\u05EA\u05B5\u05E8."
       dialogueAudioClip: {fileID: 8300000, guid: 7caddfe660382c346a4c6df035450ef1,
         type: 3}
+    - dialogueText: "\u0648\u064A\u0639\u062A\u0642\u062F \u0643\u062B\u064A\u0631
+        \u0645\u0646 \u0627\u0644\u0639\u0644\u0645\u0627\u0621 \u0623\u0646\u0647
+        \u064A\u0631\u0645\u0632 \u0625\u0644\u0649 \u0627\u0644\u062D\u062C\u0627\u0628
+        \u0627\u0644\u0630\u064A \u064A\u0641\u0635\u0644 \u0642\u062F\u0633 \u0627\u0644\u0623\u0642\u062F\u0627\u0633
+        \u0641\u064A \u0627\u0644\u0647\u064A\u0643\u0644\u060C \u0648\u0647\u0648
+        \u0627\u0644\u0645\u0643\u0627\u0646 \u0627\u0644\u0623\u0643\u062B\u0631
+        \u0642\u062F\u0633\u064A\u0629."
+      dialogueAudioClip: {fileID: 8300000, guid: 655d06b9d10444e4784f280400ddcfc0,
+        type: 3}
+    - dialogueText: "\u041C\u043D\u043E\u0433\u0438\u0435 \u0443\u0447\u0435\u043D\u044B\u0435
+        \u043F\u043E\u043B\u0430\u0433\u0430\u044E\u0442, \u0447\u0442\u043E \u043E\u043D
+        \u0441\u0438\u043C\u0432\u043E\u043B\u0438\u0437\u0438\u0440\u0443\u0435\u0442
+        \u0437\u0430\u0432\u0435\u0441\u0443, \u043E\u0442\u0434\u0435\u043B\u044F\u0432\u0448\u0443\u044E
+        \u0421\u0432\u044F\u0442\u0430\u044F \u0421\u0432\u044F\u0442\u044B\u0445
+        \u0432 \u0425\u0440\u0430\u043C\u0435 - \u0441\u0430\u043C\u043E\u0435 \u0441\u0432\u044F\u0449\u0435\u043D\u043D\u043E\u0435
+        \u043C\u0435\u0441\u0442\u043E."
+      dialogueAudioClip: {fileID: 8300000, guid: 5af50cdbb1f9b944e8a894e3d5089fd3,
+        type: 3}
   - informationDialoguePerLanguages:
     - dialogueText: "It's a common motif in Jewish art from the Second Temple period
         and carries spiritual significance.\r"
@@ -46,4 +66,19 @@ MonoBehaviour:
         \u05D5\u05B0\u05E0\u05D5\u05B9\u05E9\u05C2\u05B5\u05D0 \u05DE\u05B7\u05E9\u05C1\u05B0\u05DE\u05B8\u05E2\u05D5\u05BC\u05EA
         \u05E8\u05D5\u05BC\u05D7\u05B8\u05E0\u05B4\u05D9\u05EA."
       dialogueAudioClip: {fileID: 8300000, guid: f9af2993eeecffe429d1ee96924d552c,
+        type: 3}
+    - dialogueText: "\u0625\u0646\u0647 \u0634\u0643\u0644 \u0634\u0627\u0626\u0639
+        \u0641\u064A \u0627\u0644\u0641\u0646 \u0627\u0644\u064A\u0647\u0648\u062F\u064A
+        \u0645\u0646 \u0641\u062A\u0631\u0629 \u0627\u0644\u0647\u064A\u0643\u0644
+        \u0627\u0644\u062B\u0627\u0646\u064A \u0648\u064A\u062D\u0645\u0644 \u0623\u0647\u0645\u064A\u0629
+        \u0631\u0648\u062D\u064A\u0629."
+      dialogueAudioClip: {fileID: 8300000, guid: 3d754e4cc9d0fa84b9428bd84f37f16f,
+        type: 3}
+    - dialogueText: "\u042D\u0442\u043E \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u043D\u044B\u0439
+        \u043C\u043E\u0442\u0438\u0432 \u0432 \u0435\u0432\u0440\u0435\u0439\u0441\u043A\u043E\u043C
+        \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0435 \u043F\u0435\u0440\u0438\u043E\u0434\u0430
+        \u0412\u0442\u043E\u0440\u043E\u0433\u043E \u0425\u0440\u0430\u043C\u0430,
+        \u0438\u043C\u0435\u044E\u0449\u0438\u0439 \u0434\u0443\u0445\u043E\u0432\u043D\u043E\u0435
+        \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435."
+      dialogueAudioClip: {fileID: 8300000, guid: d0274f80441253e4cbd07473b147d608,
         type: 3}

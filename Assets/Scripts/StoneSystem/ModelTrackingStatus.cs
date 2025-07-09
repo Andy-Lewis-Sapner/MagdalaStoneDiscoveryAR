@@ -7,11 +7,17 @@ public class ModelTrackingStatus : MonoBehaviour {
     private ObserverBehaviour _observer; // The observer that tracks the model
     private bool _lastTrackingStatus; // The last tracking status
     private int _currentGuideViewIndex; // The index of the current guide view
+
+    // Model tracking status messages in different languages
+    private readonly string[] _modelTrackedMessage =
+        { "Stone is tracked", "האבן זוהתה", "تم التعرف على الحجر", "Камень был идентифицирован" };
+
+    // Model not tracking status messages in different languages
+    private readonly string[] _modelNotTrackedMessage =
+        { "Stone is not tracked", "האבן לא מזוהה", "الحجر غير معروف", "Камень неидентифицирован" };
     
     public Transform trackedModel { get; private set; } // The model that is being tracked
-    private static string modelTracked => LocaleSelector.instance.localeId == 0 ? "Stone is tracked" : "האבן זוהתה"; // The text to display when the model is tracked
-    private static string modelNotTracked => LocaleSelector.instance.localeId == 0 ? "Stone is not tracked" : "האבן לא מזוהה"; // The text to display when the model is not tracked
-
+    
     /**
      * <summary>Starts the tracking status</summary>
      */
@@ -31,7 +37,9 @@ public class ModelTrackingStatus : MonoBehaviour {
         if (_lastTrackingStatus == isTracking) return;
 
         if (NotificationPanel.instance)
-            NotificationPanel.instance.SetNotification(isTracking ? modelTracked : modelNotTracked);
+            NotificationPanel.instance.SetNotification(isTracking
+                ? _modelTrackedMessage[LocaleSelector.instance.localeId]
+                : _modelNotTrackedMessage[LocaleSelector.instance.localeId]);
 
         if (isTracking) {
             StoneSceneProgress.instance?.StartProgress();
@@ -42,7 +50,7 @@ public class ModelTrackingStatus : MonoBehaviour {
     }
 
     /**
-     * <summary>Unsubscribes from the target status changed event</summary>
+     * <summary>Unsubscribes from the target status-changed event</summary>
      */
     private void OnDestroy() {
         if (_observer) _observer.OnTargetStatusChanged -= OnStatusChanged;

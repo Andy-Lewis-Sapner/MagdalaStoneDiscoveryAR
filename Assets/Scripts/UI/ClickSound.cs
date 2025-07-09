@@ -25,7 +25,7 @@ public class ClickSound : MonoBehaviour {
      * <summary>Plays the button click sound</summary>
      */
     private static void PlayButtonClickSound() {
-        AudioManager.instance.PlayButtonClickSound();
+        AudioManager.instance.PlayClickSound();
     }
 
     /**

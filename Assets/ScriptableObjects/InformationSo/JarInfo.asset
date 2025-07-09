@@ -18,6 +18,8 @@ MonoBehaviour:
   titles:
   - Jar
   - "\u05DB\u05D3"
+  - "\u062C\u0631\u0629"
+  - "\u041A\u0443\u0432\u0448\u0438\u043D"
   informationDialogue:
   - informationDialoguePerLanguages:
     - dialogueText: The jar was used in the temple for holding water or oil.
@@ -28,4 +30,14 @@ MonoBehaviour:
         \u05DC\u05B7\u05D0\u05B2\u05D2\u05B4\u05D9\u05E8\u05B7\u05EA \u05DE\u05B7\u05D9\u05B4\u05DD
         \u05D0\u05D5\u05B9 \u05E9\u05C1\u05B6\u05DE\u05B6\u05DF."
       dialogueAudioClip: {fileID: 8300000, guid: 9ac953a46a4e5964eb637724f4fcf7f7,
+        type: 3}
+    - dialogueText: "\u0643\u0627\u0646\u062A \u0627\u0644\u062C\u0631\u0629 \u062A\u0633\u062A\u062E\u062F\u0645
+        \u0641\u064A \u0627\u0644\u0645\u0639\u0628\u062F \u0644\u062D\u0641\u0638
+        \u0627\u0644\u0645\u0627\u0621 \u0623\u0648 \u0627\u0644\u0632\u064A\u062A."
+      dialogueAudioClip: {fileID: 8300000, guid: def7683b14453e1418d91e85a50caf64,
+        type: 3}
+    - dialogueText: "\u041A\u0443\u0432\u0448\u0438\u043D \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043B\u0441\u044F
+        \u0432 \u0445\u0440\u0430\u043C\u0435 \u0434\u043B\u044F \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F
+        \u0432\u043E\u0434\u044B \u0438\u043B\u0438 \u043C\u0430\u0441\u043B\u0430."
+      dialogueAudioClip: {fileID: 8300000, guid: 2cda0ed0ca3950546bcb2a0d624de318,
         type: 3}

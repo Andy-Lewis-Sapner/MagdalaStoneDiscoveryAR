@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using System.Collections;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,8 +11,7 @@ public class SettingsPanel : MonoBehaviour {
     [SerializeField] private Toggle playVoiceForInformation; // Whether to play voice for information
     [SerializeField] private Toggle toggleAnimations; // Whether to play voice for information
     [SerializeField] private Toggle muteBackgroundMusic; // Whether to play voice for information
-    [SerializeField] private Button englishLanguageButton; // The button to switch to English
-    [SerializeField] private Button hebrewLanguageButton; // The button to switch to Hebrew
+    [SerializeField] private TMP_Dropdown languagesDropdown; // The language dropdown
     [SerializeField] private Slider sliderVoiceVolume; // The slider for voice volume
     [SerializeField] private TextMeshProUGUI voiceVolumeText; // The text for voice volume
     
@@ -29,16 +29,8 @@ public class SettingsPanel : MonoBehaviour {
         if (instance && instance != this) Destroy(gameObject);
         else instance = this;
         
-        SetLanguageButtons();
+        languagesDropdown.onValueChanged.AddListener(OnChoosingLanguageFromDropdown);
         SetSavedValues();
-    }
-
-    /**
-     * <summary>Sets up the language buttons</summary>
-     */
-    private void SetLanguageButtons() {
-        englishLanguageButton.onClick.AddListener(() => LocaleSelector.instance.ChangeLocale(0));
-        hebrewLanguageButton.onClick.AddListener(() => LocaleSelector.instance.ChangeLocale(1));
     }
 
     /**
@@ -48,6 +40,38 @@ public class SettingsPanel : MonoBehaviour {
         canvasGroup.alpha = 0f;
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
+        
+        StartCoroutine(SetLanguageDropdown());
+        LocaleSelector.OnLocaleChanged += LocaleSelectorOnLocaleChanged;
+    }
+
+    /**
+     * <summary>Sets up the language buttons</summary>
+     */
+    private void LocaleSelectorOnLocaleChanged(object sender, int e) {
+        StartCoroutine(SetLanguageDropdown());
+    }
+
+    /**
+     * <summary>Sets up the language buttons</summary>
+     */
+    private IEnumerator SetLanguageDropdown() {
+        yield return new WaitUntil(() => LocaleSelector.instance.localeId != -1);
+        languagesDropdown.options.Clear();
+        string[] languages = LocaleSelector.Locales;
+        
+        foreach (string language in languages) {
+            string translation = LocaleSelector.instance.GetTranslation(language);
+            TMP_Dropdown.OptionData option = new TMP_Dropdown.OptionData(translation);
+            languagesDropdown.options.Add(option);
+        }
+        
+        languagesDropdown.RefreshShownValue();
+        languagesDropdown.value = LocaleSelector.instance.localeId;
+    }
+
+    private static void OnChoosingLanguageFromDropdown(int chosenIndex) {
+        LocaleSelector.instance.ChangeLocale(chosenIndex);
     }
 
     /**
@@ -117,8 +141,8 @@ public class SettingsPanel : MonoBehaviour {
      * <summary>Removes event listeners</summary>
      */
     private void OnDestroy() {
-        englishLanguageButton.onClick.RemoveAllListeners();
-        hebrewLanguageButton.onClick.RemoveAllListeners();
+        LocaleSelector.OnLocaleChanged -= LocaleSelectorOnLocaleChanged;
+        languagesDropdown.onValueChanged.RemoveListener(OnChoosingLanguageFromDropdown);
         _panelFadeTween?.Kill();
     }
 }

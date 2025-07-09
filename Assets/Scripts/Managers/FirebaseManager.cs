@@ -139,7 +139,7 @@ public class FirebaseManager : MonoBehaviour {
      */
     public async Task SubmitHintForSymbol(string symbol, string hint) {
         try {
-            string language = LocaleSelector.instance.localeId == 0 ? "English" : "Hebrew";
+            string language = LocaleSelector.Locales[LocaleSelector.instance.localeId];
             string hintsPath = $"Hints/{symbol}/{language}/hints";
             
             DataSnapshot hintsSnapshot = await _firebaseDatabase.GetReference(hintsPath).GetValueAsync();
@@ -185,6 +185,48 @@ public class FirebaseManager : MonoBehaviour {
         } catch (Exception e) {
             print($"Error fetching hint for {symbol}: {e.Message}");
             return string.Empty;
+        }
+    }
+
+    /**
+     * <summary>Submits feedback to the Firebase Realtime Database</summary>
+     * <param name="answers">The feedback answers to submit</param>
+     */
+    public async Task SubmitFeedback(List<FeedbackAnswer> answers) {
+        try {
+            string feedbackPath = $"Feedback/{_deviceId}";
+            List<Dictionary<string, object>> feedbackData = new List<Dictionary<string, object>>();
+
+            foreach (FeedbackAnswer answer in answers) {
+                Dictionary<string, object> entry = new Dictionary<string, object>() {
+                    { "Question", answer.Question }
+                };
+
+                switch (answer) {
+                    case YesNoAnswer yesNo:
+                        entry.TryAdd("Type", "YesNo");
+                        entry.TryAdd("Answer", yesNo.Answer);
+                        entry.TryAdd("Suggestion", yesNo.Suggestion);
+                        break;
+                    
+                    case RatingAnswer rating:
+                        entry.TryAdd("Type", "Rating");
+                        entry.TryAdd("Rating", rating.Rating);
+                        entry.TryAdd("Suggestion", rating.Suggestion);
+                        break;
+                    
+                    case OpenAnswer openAnswer:
+                        entry.TryAdd("Type", "Open");
+                        entry.TryAdd("Answer", openAnswer.Answer);
+                        break;
+                }
+                
+                feedbackData.Add(entry);
+            }
+            
+            await _firebaseDatabase.GetReference(feedbackPath).SetValueAsync(feedbackData);   
+        } catch (Exception e) {
+            print($"Error submitting feedback: {e.Message}");
         }
     }
 }

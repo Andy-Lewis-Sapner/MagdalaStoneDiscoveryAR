@@ -157,7 +157,7 @@ public class AudioManager : MonoBehaviour {
     /**
      * <summary>Plays the button click sound</summary>
      */
-    public void PlayButtonClickSound() {
+    public void PlayClickSound() {
         buttonClickAudioSource.Stop();
         buttonClickAudioSource.Play();
     }

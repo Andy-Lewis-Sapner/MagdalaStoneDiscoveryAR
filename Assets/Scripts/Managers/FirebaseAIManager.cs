@@ -45,7 +45,7 @@ public class FirebaseAIManager : MonoBehaviour {
      * <summary>Requests a hint for a symbol from the GenAI model</summary>
      */
     public async Task<string> RequestHint(string symbol) {
-        string prompt = string.Format(SymbolPrompt, symbol, LocaleSelector.instance.localeId == 0 ? "English" : "Hebrew");
+        string prompt = string.Format(SymbolPrompt, symbol, LocaleSelector.Locales[LocaleSelector.instance.localeId]);
         try {
             Chat chat = _geminiModel.StartChat();
             GenerateContentResponse response = await chat.SendMessageAsync(prompt);

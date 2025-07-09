@@ -8,10 +8,25 @@ using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour {
     private const float AnimationDuration = 0.5f; // Animation duration
-    private const string FinalQuizMessageEnglish = "You answered {0}/{1} questions correctly!\n{2}% of participants got this score."; // Final quiz message
-    private const string FinalQuizMessageHebrew = "ענית על {0}/{1} תשובות נכונות!\n%{2} מהמשתתפים קיבלו ציון זה."; // Final quiz message
-    private const string QuestionStatsEnglish = "{0}% of participants answered correctly."; // Question stats
-    private const string QuestionStatsHebrew = "%{0} מתוך המשתתפים ענו נכון."; // Question stats
+
+    // Messages for the final score
+    private readonly string[] _finalScoreMessages = {
+        "You answered {0}/{1} questions correctly!\n{2}% of participants got this score.",
+        "ענית על {0}/{1} תשובות נכונות!\n%{2} מהמשתתפים קיבלו ציון זה.",
+        "لقد أجبت على {0}/{1} سؤال بشكل صحيح!\\n%{2} من المشاركين حصلوا على هذه النتيجة.",
+        "Вы правильно ответили на {0}/{1} вопросов!\\n{2}% участников получили этот результат."
+    };
+
+    // Messages for the question stats
+    private readonly string[] _questionStats = {
+        "{0}% of participants answered correctly.",
+        "%{0} מתוך המשתתפים ענו נכון.",
+        "أجاب %{0} من المشاركين بشكل صحيح.",
+        "{0}% участников ответили правильно."
+    };
+
+    // No data messages
+    private readonly string[] _noDataMessage = { "No data", "אין נתונים", "لا توجد بيانات", "Нет данных" };
     
     [SerializeField] private QuizDataSo quizData; // Quiz data
     [SerializeField] private MessagePanel messagePanel; // Message panel
@@ -129,10 +144,12 @@ public class QuizManager : MonoBehaviour {
 
             if (statsText.text == string.Empty) return;
             if (_answerPercentage >= 0) {
-                string format = localeId == 0 ? QuestionStatsEnglish : QuestionStatsHebrew;
-                string answerPercentage = localeId == 0
+                string format = _questionStats[localeId];
+                bool isLeftToRightLanguage = localeId == LocaleSelector.EnglishLocaleId ||
+                                             localeId == LocaleSelector.RussianLocaleId;
+                string answerPercentage = isLeftToRightLanguage
                     ? ((int)_answerPercentage).ToString()
-                    : ReverseInt((int)_answerPercentage);
+                    : ReverseIntToString((int)_answerPercentage);
                 statsText.text = string.Format(format, answerPercentage);
             }
         } else if (Mathf.Approximately(finalQuizInterface.alpha, 1)) {
@@ -156,10 +173,13 @@ public class QuizManager : MonoBehaviour {
             _answerPercentage = await FirebaseManager.instance.GetQuestionCorrectPercentage(_quizId, questionId);
             spinner.SetActive(false);
             if (_answerPercentage >= 0) {
-                string format = LocaleSelector.instance.localeId == 0 ? QuestionStatsEnglish : QuestionStatsHebrew;
-                string answerPercentage = LocaleSelector.instance.localeId == 0
+                string format = _questionStats[LocaleSelector.instance.localeId];
+                bool isLeftToRightLanguage = LocaleSelector.instance.localeId == LocaleSelector.EnglishLocaleId ||
+                                             LocaleSelector.instance.localeId == LocaleSelector.RussianLocaleId;
+                
+                string answerPercentage = isLeftToRightLanguage
                     ? ((int)_answerPercentage).ToString()
-                    : ReverseInt((int)_answerPercentage);
+                    : ReverseIntToString((int)_answerPercentage);
                 statsText.text = string.Format(format, answerPercentage);
             }
             
@@ -233,20 +253,21 @@ public class QuizManager : MonoBehaviour {
      * <param name="scorePercentage">The score percentage</param>
      */
     private void SetFinalScoreText(float scorePercentage = -1f) {
-        string format = LocaleSelector.instance.localeId == 0 ? FinalQuizMessageEnglish : FinalQuizMessageHebrew;
-        string correctAnswerCount = LocaleSelector.instance.localeId == 0
-            ? _correctAnswerCount.ToString()
-            : ReverseInt(_correctAnswerCount);
-        string questionCount = LocaleSelector.instance.localeId == 0
+        string format = _finalScoreMessages[LocaleSelector.instance.localeId];
+        bool isLeftToRightLanguage = LocaleSelector.instance.localeId == LocaleSelector.EnglishLocaleId ||
+                                     LocaleSelector.instance.localeId == LocaleSelector.RussianLocaleId;
+
+        string correctAnswerCount =
+            isLeftToRightLanguage ? _correctAnswerCount.ToString() : ReverseIntToString(_correctAnswerCount);
+        
+        string questionCount = isLeftToRightLanguage
             ? quizData.questions.Length.ToString()
-            : ReverseInt(quizData.questions.Length);
+            : ReverseIntToString(quizData.questions.Length);
+
         string percentageText = scorePercentage >= 0
-            ? LocaleSelector.instance.localeId == 0
-                ? ((int)scorePercentage).ToString()
-                : ReverseInt((int)scorePercentage)
-            : LocaleSelector.instance.localeId == 0
-                ? "No data"
-                : "אין נתונים";
+            ? isLeftToRightLanguage ? ((int)scorePercentage).ToString() : ReverseIntToString((int)scorePercentage)
+            : _noDataMessage[LocaleSelector.instance.localeId];
+        
         finalScoreText.text = string.Format(format, correctAnswerCount, questionCount, percentageText);
     }
 
@@ -266,7 +287,7 @@ public class QuizManager : MonoBehaviour {
      * <param name="num">The integer to reverse</param>
      * <returns>The reversed integer as string</returns>
      */
-    private static string ReverseInt(int num) {
+    private static string ReverseIntToString(int num) {
         char[] array = num.ToString().ToCharArray();
         Array.Reverse(array);
         return new string(array);

@@ -18,6 +18,8 @@ MonoBehaviour:
   titles:
   - Menorah
   - "\u05DE\u05E0\u05D5\u05E8\u05D4"
+  - "\u0645\u0646\u0648\u0631\u0627\u0647"
+  - "\u041C\u0435\u043D\u043E\u0440\u0430"
   informationDialogue:
   - informationDialoguePerLanguages:
     - dialogueText: This is a seven-branched menorah.
@@ -27,6 +29,13 @@ MonoBehaviour:
         \u05D1\u05BC\u05B7\u05E2\u05B2\u05DC\u05B7\u05EA \u05E9\u05C1\u05B4\u05D1\u05B0\u05E2\u05B8\u05D4
         \u05E7\u05B8\u05E0\u05B4\u05D9\u05DD."
       dialogueAudioClip: {fileID: 8300000, guid: a0047c897df22234699eb6aa4e0864a4,
+        type: 3}
+    - dialogueText: "\u0647\u0630\u0627 \u0647\u0648 \u0627\u0644\u0634\u0645\u0639\u062F\u0627\u0646
+        \u0630\u0648 \u0627\u0644\u0633\u0628\u0639\u0629 \u0641\u0631\u0648\u0639."
+      dialogueAudioClip: {fileID: 8300000, guid: c62f026db360e3645ba29616c288d9f6,
+        type: 3}
+    - dialogueText: "\u042D\u0442\u043E \u0441\u0435\u043C\u0438\u0441\u0432\u0435\u0447\u043D\u0438\u043A."
+      dialogueAudioClip: {fileID: 8300000, guid: 9cdde1a4dbfbd2e4988363fd7cd4191e,
         type: 3}
   - informationDialoguePerLanguages:
     - dialogueText: This depiction is considered the earliest known image of the
@@ -41,6 +50,18 @@ MonoBehaviour:
         \u05D1\u05BC\u05B5\u05D9\u05EA \u05D4\u05B7\u05DE\u05BC\u05B4\u05E7\u05B0\u05D3\u05BC\u05B8\u05E9\u05C1."
       dialogueAudioClip: {fileID: 8300000, guid: 636a286c21b9e154a83a1d4e8cbec6a3,
         type: 3}
+    - dialogueText: "\u064A\u0639\u062A\u0628\u0631 \u0647\u0630\u0627 \u0627\u0644\u062A\u0635\u0648\u064A\u0631
+        \u0623\u0642\u062F\u0645 \u0635\u0648\u0631\u0629 \u0645\u0639\u0631\u0648\u0641\u0629
+        \u0644\u0645\u0646\u0648\u0631\u0629 \u0627\u0644\u0647\u064A\u0643\u0644."
+      dialogueAudioClip: {fileID: 8300000, guid: bd87124181c2fc44b9ef6f49011f60e1,
+        type: 3}
+    - dialogueText: "\u042D\u0442\u043E \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435
+        \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044F \u0441\u0430\u043C\u044B\u043C
+        \u0440\u0430\u043D\u043D\u0438\u043C \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u043C
+        \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435\u043C
+        \u0445\u0440\u0430\u043C\u043E\u0432\u043E\u0439 \u043C\u0435\u043D\u043E\u0440\u044B."
+      dialogueAudioClip: {fileID: 8300000, guid: 51562fe04597e9d4b933850889d50ce4,
+        type: 3}
   - informationDialoguePerLanguages:
     - dialogueText: It is likely carved by an artist who had seen it firsthand.
       dialogueAudioClip: {fileID: 8300000, guid: 134f87206ec01df409cac120b68fce70,
@@ -51,4 +72,15 @@ MonoBehaviour:
         \u05E9\u05C1\u05B6\u05E8\u05B8\u05D0\u05B8\u05D4 \u05D0\u05D5\u05B9\u05EA\u05B8\u05D4\u05BC
         \u05DE\u05B4\u05DE\u05BC\u05B8\u05E7\u05D5\u05B9\u05E8 \u05E8\u05B4\u05D0\u05E9\u05C1\u05D5\u05B9\u05DF."
       dialogueAudioClip: {fileID: 8300000, guid: 4dcac61606bff874691872a8fdcd04b4,
+        type: 3}
+    - dialogueText: "\u0645\u0646 \u0627\u0644\u0645\u0631\u062C\u062D \u0623\u0646
+        \u064A\u0643\u0648\u0646 \u0642\u062F \u0646\u062D\u062A\u0647\u0627 \u0641\u0646\u0627\u0646
+        \u0631\u0622\u0647\u0627 \u0628\u0646\u0641\u0633\u0647."
+      dialogueAudioClip: {fileID: 8300000, guid: c9b0088cf80ff0f4ea8983205cf97047,
+        type: 3}
+    - dialogueText: "\u0412\u0435\u0440\u043E\u044F\u0442\u043D\u043E, \u0435\u0433\u043E
+        \u0432\u044B\u0440\u0435\u0437\u0430\u043B \u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A,
+        \u0432\u0438\u0434\u0435\u0432\u0448\u0438\u0439 \u0435\u0433\u043E \u0441\u0432\u043E\u0438\u043C\u0438
+        \u0433\u043B\u0430\u0437\u0430\u043C\u0438."
+      dialogueAudioClip: {fileID: 8300000, guid: cef709e68d4b14041b862c850afb22a1,
         type: 3}

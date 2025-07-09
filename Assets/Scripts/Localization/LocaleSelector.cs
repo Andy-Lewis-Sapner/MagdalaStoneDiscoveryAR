@@ -1,14 +1,24 @@
 ﻿using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
+using UnityEngine.Localization.Tables;
 
 public class LocaleSelector : MonoBehaviour {
     private const string LocaleKey = "Locale";
+    public const int EnglishLocaleId = 0;
+    public const int HebrewLocaleId = 1;
+    public const int ArabicLocaleId = 2;
+    public const int RussianLocaleId = 3;
     
     public static LocaleSelector instance { get; private set; } // Singleton
     public static event EventHandler<int> OnLocaleChanged; // Event for language change
     private static int _localeId = -1; // Current language
+    public static readonly string[] Locales = { "English", "Hebrew", "Arabic", "Russian" };
+    
+    [SerializeField] private StringTable[] translations; // Collection of string tables
+    [SerializeField] private TMP_FontAsset[] fonts;
 
     // Current language property
     public int localeId {
@@ -59,5 +69,20 @@ public class LocaleSelector : MonoBehaviour {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
         localeId = localeID;
         _isCoroutineActive = false;
+    }
+
+    /**
+     * <summary>Returns the translation of the given key</summary>
+     */
+    public string GetTranslation(string key) {
+        StringTable table = translations[localeId];
+        return table.GetEntry(key)?.Value ?? key;
+    }
+    
+    /**
+     * <summary>Returns the font asset of the given index</summary>
+     */
+    public TMP_FontAsset GetFontAsset(int index) {
+        return fonts[index];
     }
 }
