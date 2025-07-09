@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -15,10 +16,9 @@ public class FontChanger : MonoBehaviour {
     /**
      * <summary>Changes the font based on the selected locale</summary>
      */
-    private IEnumerator Start() {
+    private void Start() {
         LocaleSelector.OnLocaleChanged += LocaleSelectorOnLocaleChanged;
-        yield return new WaitUntil(() => LocaleSelector.instance.localeId != -1);
-        _textMeshPro.font = LocaleSelector.instance.GetFontAsset(LocaleSelector.instance.localeId);
+        StartCoroutine(SetFontPerLanguage());
     }
     
     /**
@@ -26,6 +26,21 @@ public class FontChanger : MonoBehaviour {
      */
     private void LocaleSelectorOnLocaleChanged(object sender, int localeId) {
         _textMeshPro.font = LocaleSelector.instance.GetFontAsset(localeId);
+    }
+
+    /**
+     * <summary>Changes the font based on the saved locale</summary>
+     */
+    private IEnumerator SetFontPerLanguage() {
+        yield return new WaitUntil(() => LocaleSelector.instance && LocaleSelector.instance.localeId != -1);
+        _textMeshPro.font = LocaleSelector.instance.GetFontAsset(LocaleSelector.instance.localeId);
+    }
+
+    /**
+     * <summary>Changes the font based on the saved locale</summary>
+     */
+    private void OnEnable() {
+        StartCoroutine(SetFontPerLanguage());
     }
 
     /**
