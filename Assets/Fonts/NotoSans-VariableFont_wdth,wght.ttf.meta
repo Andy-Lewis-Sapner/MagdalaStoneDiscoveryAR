@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fd86097c001f82541a73753f5afba746
+guid: 785cdff2ad7e8ae44a8a73e3158bf732
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Libertinus Math
+  - Noto Sans
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

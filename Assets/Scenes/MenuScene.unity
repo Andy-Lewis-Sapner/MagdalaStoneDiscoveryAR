@@ -4450,10 +4450,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3e37e14433dd5fc48bc618a9acf18733, type: 2}
   - {fileID: 11400000, guid: 148a39105d4ff874e915f1f0d78c101a, type: 2}
   fonts:
-  - {fileID: 11400000, guid: a924722fad5f0644ab0be660206c0889, type: 2}
-  - {fileID: 11400000, guid: 7db50e07f77d66649a1d9b0768cbb59d, type: 2}
+  - {fileID: 11400000, guid: da3606dba1810d145808014b8b7891f1, type: 2}
+  - {fileID: 11400000, guid: da3606dba1810d145808014b8b7891f1, type: 2}
   - {fileID: 11400000, guid: d36b42db9bd6edd46a9256cfdeef5a9d, type: 2}
-  - {fileID: 11400000, guid: 4fa63dcb7e75b1742b6f85cc94a9e365, type: 2}
+  - {fileID: 11400000, guid: bbf435092fab9854fb26307fea0e2d35, type: 2}
 --- !u!4 &836018256
 Transform:
   m_ObjectHideFlags: 0

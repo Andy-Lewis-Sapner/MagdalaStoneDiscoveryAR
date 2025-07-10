@@ -7,25 +7,25 @@
     <list default="true" id="3988e1ee-877c-4841-bee1-c848abbc4395" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.wktree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Locales.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Locales.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Alef-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Alef-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LocalizationSettings/Locales/English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LocalizationSettings/Locales/English (en).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LocalizationSettings/Locales/Hebrew (he).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LocalizationSettings/Locales/Hebrew (he).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LocalizationSettings/Tables/EnglishHebrewTranslations Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LocalizationSettings/Tables/EnglishHebrewTranslations Shared Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LocalizationSettings/Tables/EnglishHebrewTranslations.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LocalizationSettings/Tables/EnglishHebrewTranslations.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LocalizationSettings/Tables/EnglishHebrewTranslations_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LocalizationSettings/Tables/EnglishHebrewTranslations_en.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LocalizationSettings/Tables/EnglishHebrewTranslations_he.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LocalizationSettings/Tables/EnglishHebrewTranslations_he.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/LibertinusMath-Regular SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/LibertinusMath-Regular SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/LibertinusMath-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/LibertinusMath-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/NotoSansArabic-VariableFont_wdth,wght SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/NotoSansArabic-VariableFont_wdth,wght SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OpenSans-VariableFont_wdth,wght SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OpenSans-VariableFont_wdth,wght SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OpenSans-VariableFont_wdth,wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OpenSans-VariableFont_wdth,wght.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Roboto-VariableFont_wdth,wght SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Roboto-VariableFont_wdth,wght SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Roboto-VariableFont_wdth,wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Roboto-VariableFont_wdth,wght.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaModels/MagdalaStone/checksum.md5" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaModels/MagdalaStone/checksum.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaModels/VuforiaMars_ModelTarget/checksum.md5" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaModels/VuforiaMars_ModelTarget/checksum.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/QuizScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/QuizScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StoneScene3D.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StoneScene3D.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StoneSceneAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StoneSceneAR.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SynagogueScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SynagogueScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Localization/LocaleSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Localization/LocaleSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Localization/RTLChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Localization/RTLChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/MessagePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MessagePanel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,9 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/Runtime/Component Localizers/LocalizeStringEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/Runtime/Locale.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.localization@f2647f7408bd/Runtime/Property Variants/Tracked Objects/TrackedLocalizeStringEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/TMP/TMP_MaterialManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/TMP/TMP_SubMeshUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/TMP/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@238c430a5976/Runtime/ARFoundation/ARTrackedImageManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@238c430a5976/Runtime/Simulation/Subsystems/SimulationSessionSubsystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils@c0df0dd5bced/Runtime/ScriptableSettings.cs" root0="SKIP_HIGHLIGHTING" />
@@ -195,6 +197,8 @@
       <workItem from="1751265438792" duration="123000" />
       <workItem from="1751286622644" duration="1090000" />
       <workItem from="1752038043042" duration="165000" />
+      <workItem from="1752038324379" duration="28551000" />
+      <workItem from="1752125970306" duration="1222000" />
     </task>
     <task id="LOCAL‎-00001" summary="First Commit">
       <option name="closed" value="true" />

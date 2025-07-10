@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 972a4fda81db1db40b08deb996883af4
+guid: 1265ec1c38c971c4bb7e70e018ee11f9
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Open Sans
+  - Alef
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
