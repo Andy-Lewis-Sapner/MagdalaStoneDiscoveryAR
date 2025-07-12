@@ -24443,6 +24443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002069121}
   - component: {fileID: 1002069122}
+  - component: {fileID: 1002069123}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -24520,6 +24521,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!114 &1002069123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002069120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fb082face04fd482505e18b955cb96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1011923256
 GameObject:
   m_ObjectHideFlags: 0
@@ -38060,7 +38073,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 16
+  m_fontSizeMin: 12
   m_fontSizeMax: 36
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -51305,7 +51318,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -60, y: -40}
+  m_SizeDelta: {x: -270, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018013198
 MonoBehaviour:
